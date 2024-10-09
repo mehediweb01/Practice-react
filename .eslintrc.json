@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["airbnb", "airbnb/hooks", "plugin:prettier/recommended"],
+  "plugins": ["prettier", "react", "react-hooks"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": [
+      1,
+      { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+    ],
+    "react/prop-types": 0,
+    "react/react-in-jsx-scope": "off" // If using React 17+ with the new JSX transform
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
+}

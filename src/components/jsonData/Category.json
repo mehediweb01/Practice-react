@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "category": "main"
+  },
+  {
+    "id": 2,
+    "category": "sub"
+  },
+  {
+    "id": 3,
+    "category": "sub2"
+  },
+  {
+    "id": 4,
+    "category": "sub3"
+  },
+  {
+    "id": 5,
+    "category": "sub4"
+  }
+]
